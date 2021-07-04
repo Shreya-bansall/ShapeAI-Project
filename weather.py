@@ -17,7 +17,6 @@ date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
 print ("-------------------------------------------------------------")
 print ("Weather Stats for - {}  || {}".format(location.upper(), date_time))
 print ("-------------------------------------------------------------")
-
 print ("Current temperature is: {:.2f} deg C".format(temp_city))
 print ("Current weather desc  :",weather_desc)
 print ("Current Humidity      :",hmdt, '%')
